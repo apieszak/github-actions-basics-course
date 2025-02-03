@@ -1,4 +1,4 @@
-name: Shared Actions Example
+name: Shared Actions Examplee
 
 on:
   workflow_dispatch:
