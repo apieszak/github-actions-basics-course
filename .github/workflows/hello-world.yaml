@@ -4,10 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  checkout-repo:
+  print-hello-world:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
-      - run: ls
+      - name: Say hello
+        run: echo "Hello World"
